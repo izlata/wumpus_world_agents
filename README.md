@@ -26,12 +26,13 @@ Jupyter notebook: q_agent_two_input_network.ipynb
 
 The rules of the environment were mostly taken from Russell and Norvig, Artificial Intelligence: A Modern Approach.
 
-The Wumpus World is a grid of squares surrounded by walls (represents a cave), where each square can contain agents and objects. 
+**The Wumpus World** is a grid of squares surrounded by walls (represents a cave), where each square can contain agents and objects. 
 * The Agent always starts in the lower left corner - in the code it is labelled as (0, 0), facing to the right (Agent’s orientation - East).
 *	The Agent dies if it enters a square containing a pit or a live monster Wumpus. It is safe to enter a square with a dead Wumpus.
 *	The Agent's goal is to find the gold and bring it back to the start as quickly as possible, without being killed, and climb out of the cave. Also, the agent may be allowed to climb out of the cave without gold. 
 *	The game ends either when the Agent dies or when the Agent climbs out of the cave.
 
+**Locations of the Wumpus, gold and pits:** 
 The locations of the gold and the Wumpus are chosen randomly, with a uniform distribution, from the squares other than the start square. In addition, each square other than the start can be a pit, with probability = pit_prob
 
 The Agent is facing one of **four possible directions (Agent’s orientation)**: North, South, East or West.
