@@ -1,5 +1,5 @@
 # wumpus_world_agents
-## The Wumpus World Agents (Probabilistic, Q-learning)
+## The Wumpus World Agents (Probabilistic, Deep Q-learning)
 
 ### Probabilistic Agent (ProbAgent)
 Jupyter notebook: prob_agent_collect_experience.ipynb
@@ -22,7 +22,7 @@ Jupyter notebook: q_agent_two_input_network.ipynb
 
 
 
-### The Wumpus World Environment
+### The Wumpus World Environment - Rules
 
 The rules of the environment were mostly taken from Russell and Norvig, Artificial Intelligence: A Modern Approach.
 
@@ -53,7 +53,7 @@ The Agent is facing one of **four possible directions (Agent’s orientation)**:
 
 The Percept also contains the **reward** calculated by the environment after each Agent's action : +1000 for climbing out of the cave with the gold, -1000 for falling into a pit or being eaten by the Wumpus, -1 for each action taken and -10 for using the arrow.
 
-An environment is initialized with the following parameters:
+**An environment is initialized with the following parameters:**
 -	width of the grid
 -	height of the grid
 -	allow climb without gold
@@ -61,7 +61,7 @@ An environment is initialized with the following parameters:
 
 The standard game is an initialization of (4, 4, True, 0.2).
 
-Notes:
+**Notes:**
 -	The Agent must only have access to the Percepts. The Agent should not be able to access any other information about the state of the Environment (where the Wumpus is, whether there is a pit in a location, etc.)
 -	The Wumpus and pits do not move during a game, but they will move from one game to the next
 
