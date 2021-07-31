@@ -1,5 +1,10 @@
 # wumpus_world_agents
-## The Wumpus World Agents (Probabilistic, Deep Q-learning)
+## The Wumpus World Agents (Naive, Probabilistic, Deep Q-learning)
+
+### Naive Agent
+Jupyter notebook: naive_agent.ipynb
+
+Naive Agent chooses the next action randomly between the six possible actions (Forward, Turn Left, Turn Right, Shoot, Grab and Climb) with uniform probability.
 
 ### Probabilistic Agent (ProbAgent)
 Jupyter notebook: prob_agent_collect_experience.ipynb
