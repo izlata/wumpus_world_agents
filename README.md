@@ -27,7 +27,7 @@ Jupyter notebook: q_agent_two_input_network.ipynb
 
 
 
-### The Wumpus World Environment - Rules
+## The Wumpus World Environment - Rules
 
 The rules of the environment were mostly taken from Russell and Norvig, Artificial Intelligence: A Modern Approach.
 
