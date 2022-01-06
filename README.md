@@ -1,6 +1,9 @@
 # wumpus_world_agents
 ## The Wumpus World Agents (Naive, Probabilistic, Deep Q-learning)
 
+In this project I built three different agents for the AI Wumpus World Environment (partially observable game environment).
+
+
 ### Naive Agent
 Jupyter notebook: naive_agent.ipynb
 
@@ -30,6 +33,10 @@ Jupyter notebook: q_agent_two_input_network.ipynb
 ## The Wumpus World Environment - Rules
 
 The rules of the environment were mostly taken from Russell and Norvig, Artificial Intelligence: A Modern Approach.
+
+Example Grid (4x4):
+
+![Example Grid 4x4](example_grid_4x4.png)
 
 **The Wumpus World** is a grid of squares surrounded by walls (represents a cave), where each square can contain agents and objects. 
 * The Agent always starts in the lower left corner - in the code it is labelled as (0, 0), facing to the right (Agent’s orientation - East).
