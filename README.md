@@ -1,7 +1,6 @@
-# wumpus_world_agents
-## The Wumpus World Agents (Naive, Probabilistic, Deep Q-learning)
+# The Wumpus World Agents (Naive, Probabilistic, Deep Q-learning)
 
-In this project I built three different agents for the AI Wumpus World Environment (partially observable game environment).
+In this project I built an environment simulator and three different agents for the AI Wumpus World Environment (partially observable game environment).
 
 
 ### Naive Agent
